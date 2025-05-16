@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #ffdb00;
+  color: #000;
+  text-align: center;
+}
+header {
+  background-color: #0b6e32;
+  color: #0e0c0c;
+  padding: 10px;
+  position: relative;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+.partner-text {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.gov-logo {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 60px;
+}
+.search-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.search-bar input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+}
+.search-bar button {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+}
+.main-image img {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
+.button-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+}
+.button-list button {
+  padding: 12px;
+  background: green;
+  color: rgb(9, 8, 8);
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+.info-card {
+  background: #c4ff9b;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: left;
+  width: 80%;
+}
+footer {
+  background: #008037;
+  color: white;
+  padding: 20px;
+}
+footer button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #005f29;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.fade-in {
+  animation: fadeIn 0.6s ease-in forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
